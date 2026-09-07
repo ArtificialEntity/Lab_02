@@ -21,3 +21,4 @@
 - **printf("%d - общая выручка", S_Passengers * S_Price + F_Passengers * F_Price)**
 7. Конец.
 ### Блок-схема:
+[diagram](https://github.com/ArtificialEntity/Lab_02/blob/main/Lab_02_Diagram.png)
