@@ -21,4 +21,31 @@
 - **printf("%d - общая выручка", S_Passengers * S_Price + F_Passengers * F_Price)**
 7. Конец.
 ### Блок-схема:
-[diagram](https://github.com/ArtificialEntity/Lab_02/blob/main/Lab_02_Diagram.png)
+![diagram](https://github.com/ArtificialEntity/Lab_02/blob/main/Lab_02_Diagram.png)
+## 2. Реализация программы
+```#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+	setlocale(LC_ALL, "RUS");
+
+	int Passengers = 100;
+
+	int S_Passengers = 3 * Passengers / 4;
+
+	int F_Passengers = 1 * Passengers / 4;
+
+	int S_Price = 50;
+
+	int F_Price = 50 * 2;
+
+	printf("%d - общая выручка", S_Passengers * S_Price + F_Passengers * F_Price);
+
+	return 0;
+}
+```
+## 3. Результаты работы программы
+6250 - общая выручка
+## 4. Информация о разработчике
+Коваленко Вадим Валерьевич, бТИИ-261
